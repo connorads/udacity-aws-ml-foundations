@@ -10,6 +10,9 @@ brew install --cask miniconda
 conda init zsh
 conda install mamba -n base -c conda-forge
 
+# Disable base activation (prevent conflict with pyenv)
+conda config --set auto_activate_base false
+
 # Setup environment
 mamba create --name testenv numpy pandas jupyterlab
 conda activate testenv
