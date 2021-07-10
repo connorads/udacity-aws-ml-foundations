@@ -16,6 +16,7 @@ conda activate testenv
 
 # Install packages
 mamba install -c conda-forge jupyterlab
+mamba install -c conda-forge pytest matplotlib
 
 jupyter lab
 ```
