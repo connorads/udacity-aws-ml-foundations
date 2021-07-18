@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='distributions',
+setup(name='connorads-distributions',
       version='0.1',
       description='Gaussian distributions',
       packages=['distributions'],
